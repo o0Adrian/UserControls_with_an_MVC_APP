@@ -22,7 +22,7 @@ His youtube channel is: [@Lineindent](https://www.youtube.com/@lineindent)
 
 The only thing that I changed from Line Indent's version is that I made it independent.
 
-**As mentioned:** a UserControl should not depend to a certain app, becuase it should have the capacity of being used in different apps.
+**As mentioned:** a UserControl should not depend to a certain app, because it should have the capacity of being used in different apps. (it's as if the *Text* componenet couldn't be used in any other Flet project because it can only be used in one project in specific... dumb right?)
 
 Please see/compare how I changed the *build* method as well as added the *AnimateSidebar* inside the UserControl, not outside as in the original version.
 
