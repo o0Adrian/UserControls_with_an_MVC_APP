@@ -1,12 +1,12 @@
 # Before we start
 
-Warning: This is a workaround. In the future I will improve flet-mvc library to add decorators send/receive in order to connect them without the need of sending objects directly to the UserControl. See "What is next" below.
+IMPORTANT: This is a workaround. In the future I will improve flet-mvc library to add decorators send/receive in order to connect them without the need of sending objects directly to the UserControl. See "What is next" below.
 
 ## Flet's User Controls in a nutshell:
 
-In simple term, flet User Control objects are Controls created by the users. Controls like: Container, Text, Row... Literally they can be used as any other control in our view.
+In simple terms, flet User Control objects are Controls created by the users. Controls like: Container, Text, Row... Literally they can be used as any other control in our view.
 
-Why are they useful? I personally use them to be reusable. Let's say I create two applications and went them to have a certain "view", then I can just create my own User Control.
+Why are they useful? They are meant to be reusable. Let's say I create two applications and want them to have a certain block of "view", then I can just create my own UserControl.
 
 Please reference flet documentation: [UserControls](https://flet.dev/docs/guides/python/user-controls/)
 
@@ -22,7 +22,7 @@ His youtube channel is: [@Lineindent](https://www.youtube.com/@lineindent)
 
 The only thing that I changed from Line Indent's version is that I made it independent.
 
-**As mentioned:** a UserControl should not depend to a certain app, becuase it should have the capacity of being used in different apps.
+**As mentioned:** a UserControl should not depend to a certain app, because it should have the capacity of being used in different apps. (it's as if the *Text* componenet couldn't be used in any other Flet project because it can only be used in one project in specific... dumb right?)
 
 Please see/compare how I changed the *build* method as well as added the *AnimateSidebar* inside the UserControl, not outside as in the original version.
 
